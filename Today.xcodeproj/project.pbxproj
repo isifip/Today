@@ -14,6 +14,8 @@
 		C77B41C027E22034000F46CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77B41BF27E22034000F46CB /* Assets.xcassets */; };
 		C77B41C327E22034000F46CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77B41C127E22034000F46CB /* LaunchScreen.storyboard */; };
 		C77B41CF27E22469000F46CB /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77B41CE27E22469000F46CB /* Reminder.swift */; };
+		C77B41D127E22C54000F46CB /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77B41D027E22C54000F46CB /* UIColor+Today.swift */; };
+		C77B41D327E22C71000F46CB /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77B41D227E22C71000F46CB /* Date+Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C77B41C227E22034000F46CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77B41C427E22034000F46CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77B41CE27E22469000F46CB /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		C77B41D027E22C54000F46CB /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		C77B41D227E22C71000F46CB /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				C77B41CE27E22469000F46CB /* Reminder.swift */,
+				C77B41D027E22C54000F46CB /* UIColor+Today.swift */,
+				C77B41D227E22C71000F46CB /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			files = (
 				C77B41BB27E22032000F46CB /* ReminderListViewController.swift in Sources */,
 				C77B41B727E22032000F46CB /* AppDelegate.swift in Sources */,
+				C77B41D127E22C54000F46CB /* UIColor+Today.swift in Sources */,
+				C77B41D327E22C71000F46CB /* Date+Today.swift in Sources */,
 				C77B41B927E22032000F46CB /* SceneDelegate.swift in Sources */,
 				C77B41CF27E22469000F46CB /* Reminder.swift in Sources */,
 			);
