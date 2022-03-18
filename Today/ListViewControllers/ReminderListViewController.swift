@@ -9,13 +9,14 @@ import UIKit
 
 class ReminderListViewController: UICollectionViewController {
     
-    // Testing git problem
-    
     var dataSource: DataSource!
     var reminders: [Reminder] = Reminder.sampleData
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Today"
+        //navigationController?.navigationBar.prefersLargeTitles = true
         
         let listLayout = listLayout()
         collectionView.collectionViewLayout = listLayout
