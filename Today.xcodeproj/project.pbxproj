@@ -14,6 +14,8 @@
 		C76C83F027E8947400B9102C /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C83EF27E8947400B9102C /* CAGradientLayer+ListStyle.swift */; };
 		C76C83F227E89AE600B9102C /* TodayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C83F127E89AE600B9102C /* TodayError.swift */; };
 		C76C83F427E89B4A00B9102C /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C83F327E89B4A00B9102C /* EKEventStore+AsyncFetch.swift */; };
+		C76C83F627E89C6D00B9102C /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C83F527E89C6D00B9102C /* Reminder+EKReminder.swift */; };
+		C76C83F827E89EF800B9102C /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C83F727E89EF800B9102C /* ReminderStore.swift */; };
 		C77902B127E4C21000EA8493 /* ReminderVIewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77902B027E4C21000EA8493 /* ReminderVIewController+Section.swift */; };
 		C77902B327E4C8B300EA8493 /* ReminderViewController+CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77902B227E4C8B300EA8493 /* ReminderViewController+CellConfiguration.swift */; };
 		C77902B627E4CC6F00EA8493 /* UIView+PinnedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77902B527E4CC6F00EA8493 /* UIView+PinnedSubview.swift */; };
@@ -43,6 +45,8 @@
 		C76C83EF27E8947400B9102C /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
 		C76C83F127E89AE600B9102C /* TodayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayError.swift; sourceTree = "<group>"; };
 		C76C83F327E89B4A00B9102C /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
+		C76C83F527E89C6D00B9102C /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
+		C76C83F727E89EF800B9102C /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
 		C77902B027E4C21000EA8493 /* ReminderVIewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderVIewController+Section.swift"; sourceTree = "<group>"; };
 		C77902B227E4C8B300EA8493 /* ReminderViewController+CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+CellConfiguration.swift"; sourceTree = "<group>"; };
 		C77902B527E4CC6F00EA8493 /* UIView+PinnedSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinnedSubview.swift"; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				C76C83EF27E8947400B9102C /* CAGradientLayer+ListStyle.swift */,
 				C76C83F127E89AE600B9102C /* TodayError.swift */,
 				C76C83F327E89B4A00B9102C /* EKEventStore+AsyncFetch.swift */,
+				C76C83F527E89C6D00B9102C /* Reminder+EKReminder.swift */,
+				C76C83F727E89EF800B9102C /* ReminderStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,10 +271,12 @@
 				C77902B127E4C21000EA8493 /* ReminderVIewController+Section.swift in Sources */,
 				C77902B327E4C8B300EA8493 /* ReminderViewController+CellConfiguration.swift in Sources */,
 				C77B41D627E2311B000F46CB /* ReminderListViewController+DataSource.swift in Sources */,
+				C76C83F627E89C6D00B9102C /* Reminder+EKReminder.swift in Sources */,
 				C76C83F427E89B4A00B9102C /* EKEventStore+AsyncFetch.swift in Sources */,
 				C77B41B927E22032000F46CB /* SceneDelegate.swift in Sources */,
 				C76C83F027E8947400B9102C /* CAGradientLayer+ListStyle.swift in Sources */,
 				C77B41CF27E22469000F46CB /* Reminder.swift in Sources */,
+				C76C83F827E89EF800B9102C /* ReminderStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
